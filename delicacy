@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELICACY</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="delicacy.css">
+    <!-- RESPONSIVE LINK -->
+    <link rel="stylesheet" href="delicacy-responsive.css">
+    <!-- BOOTSTRAP CDN -->
+
+    <!-- JS CDN -->
+    <link rel="stylesheet" href="delicacy.js">
+    <!-- BOX-ICONS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <a href="#" class="logo"><i class='bx bx-basket'></i>Delicacy</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- nav list -->
+        <ul class="navbar">
+            <li> <a href="#home" class="home-active">Home</a></li>
+            <li> <a href="#categories" class="li">Categories</a></li>
+            <li> <a href="#products" class="li">Products</a></li>
+            <li> <a href="#about" class="li">About</a></li>
+            <li> <a href="#customers" class="li">Customers</a></li>
+        </ul>
+
+        <!-- profile -->
+        <div class="profile">
+            <img src="Images-delicacy/profile.jpg" alt="">
+            <span>Abdus Rehman</span>
+            <i class='bx bx-caret-down'></i>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+             
+            <!-- SLIDE -1  -->
+              
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>We are Delicacy</span>
+                    <h1>Choose delicacy <br> the best healthy <br> chicken salad</h1>
+                    <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="Images-delicacy/home1.png" alt="">
+            </div>
+
+            <!-- SLIDE 2 -->
+
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>We are Delicacy</span>
+                    <h1>Choose delicacy <br> the best healthy <br> chicken salad</h1>
+                    <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="Images-delicacy/home2.png" alt="">
+            </div>
+            <!-- SLIDE 3 -->
+
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>We are Delicacy</span>
+                    <h1>Choose delicacy <br> the best healthy <br> chicken salad</h1>
+                    <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="Images-delicacy/home3.png" alt="">
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
+
+
+  // CSS
+
+  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@1,400..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap');
+
+
+
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+scroll-behavior: smooth;
+}
+
+#Header{
+    padding-top: 0;
+    top: 0px;
+}
+
+.line-bottom {
+    width: 100%;
+}
+
+.bar {
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.bar:hover {
+    background-color: #ddd;
+}
+
+i.fa-solid.fa-bars {
+    font-size: x-large;
+    padding: 6px;
+}
+
+.toggler-icon {
+    display: inline-block;
+    width: 2.5em;
+    height: 2em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navbar-fable {
+    background-color: black;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 71px;
+    background: transparent;
+    padding: 0px;
+    position: fixed;
+
+}
+.container.of-navbar {
+    display: none;
+}
+
+.img1 {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/rs2.jpg');
+    height: 600PX;
+    background-size: cover;
+    background-position: top;
+
+}
+
+.img2 {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/rs1.jpg');
+    height: 600PX;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img3 {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/rs3.jpg');
+    height: 600PX;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+
+.text-color {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.line {
+    height: 38px;
+    border: 1px solid white;
+    margin-left: 12px;
+}
+
+.book-a-table {
+    background: #f8bf2c;
+    font-size: 14px;
+    padding: 8px 20px;
+    border: 1px solid #f8bf2c;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.book-a-table:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+.menu {
+    position: absolute;
+    top: 12px;
+
+}
+
+header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 20px;
+}
+
+.a.nav-link.menu-items {
+    color: white;
+    font-weight: 600;
+}
+
+.menu-items {
+    margin-left: auto;
+    gap: 14px;
+}
+
+.nav-item:hover {
+    color: #f8bf2c;
+}
+
+.me-auto {
+    margin-right: 41px !important;
+}
+
+.icons-list {
+    display: flex;
+    gap: 15px;
+    margin-right: 31px;
+}
+
+/* logo-2 */
+
+.outer-box {
+    bottom: 60px;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+.logo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.heading {
+    font-size: 2.75rem;
+    font-weight: 750;
+    letter-spacing: 5px;
+    line-height: 100px;
+    margin-bottom: 0;
+}
+
+.paragraph {
+    font-family: Lora;
+    color: #dad4ce;
+    FONT-SIZE: 1.25rem;
+    font-weight: 600;
+}
+
+.discover-story {
+    padding: 12px;
+    background: transparent;
+    color: white;
+    border: 1px solid;
+    letter-spacing: 2px;
+}
+
+/* BOX */
+
+.row {
+    padding: 0;
+}
+
+
+.discover {
+    font-family: 'Tangerine', cursive;
+    color: #F2B410;
+    font-weight: 500;
+    font-size: 79px;
+    margin-bottom: 0;
+}
+
+.our-story {
+    font-size: 2.65rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.para2 {
+    font-family: lora, sans-serif;
+    color: #777;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 15px;
+}
+
+.box-behind {
+    background-color: #F2B410;
+    width: 35%;
+    height: 63px;
+    margin-left: 162px;
+    margin-top: 28px;
+}
+
+.our-recipe {
+    background: #F2B410;
+    border: 2px solid white;
+    COLOR: WHITE;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 11px 20px;
+    margin-top: 9px;
+}
+
+/* BOX-2 */
+
+
+.image4-border {
+    width: 100%;
+    background-image: url('file:///C:/Users/user2/Downloads/img4.webp');
+    background-size: cover;
+    height: 362px;
+    padding: 12px;
+
+}
+
+.image4-innerbox {
+    border: 1px solid white;
+    height: 335px;
+
+}
+
+/* SECTION-3 */
+
+.section3 {
+    margin-top: 135px;
+    padding: 0;
+}
+
+.background-3 {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/bg4.jpg');
+    width: auto;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.8);
+}
+
+.over-div {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    left: 32%;
+}
+
+.true-passion {
+    color: #F2B410;
+    font-size: 5.5rem;
+    padding-top: 260px;
+    margin-bottom: 0;
+    font-family: 'Tangerine', cursive;
+
+}
+
+.natural-flavours {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+}
+
+/* SECTION-4 */
+
+.image5-border {
+    width: 100%;
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/food4.jpg');
+    background-size: cover;
+    height: 362px;
+    padding: 12px;
+
+}
+
+.image5-innerbox {
+    border: 1px solid white;
+    height: 335px;
+
+}
+
+/* SECTION-5 */
+
+.section5 {
+    margin-top: 135px;
+    padding: 0;
+}
+
+.background-5 {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/bg8.jpg');
+    width: auto;
+    height: 700px;
+    background-position: top;
+    background-size: cover;
+    /* filter: brightness(0.8); */
+    margin-top: 102px;
+}
+
+.over-bg-5 {
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+.best-recipe-awarded {
+    padding-top: 52px;
+}
+
+/* row-1 */
+
+
+
+.row-1 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.headings {
+    font-size: 17px;
+    font-family: Lora;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+
+
+.colors {
+    color: white;
+    font-size: 25px;
+}
+
+.para5 {
+    font-size: 13px;
+    font-family: Lora;
+    text-align: left;
+    line-height: 24px;
+    LETTER-SPACING: 1px;
+}
+
+.best-recipe {
+    color: #F2B410;
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    margin-bottom: 0;
+
+}
+
+.row.A {
+    margin-top: 25px;
+}
+
+.AWARDED-CHEFS {
+    color: white;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+/* ROW-2 */
+
+.row-2 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.para6 {
+    font-size: 13px;
+    font-family: Lora;
+    text-align: left;
+    line-height: 24px;
+    LETTER-SPACING: 1px;
+}
+
+
+.Vegetables-Soup.colors {
+    margin-right: 50px;
+}
+
+i.fa-regular.fa-note-sticky {
+    padding: 15px;
+    color: #F2B410;
+    font-size: 18px;
+}
+
+button.full-menu {
+    padding: 4px 37px 4px 28px;
+    background: transparent;
+    color: white;
+    border: 1px solid;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 60px;
+
+}
+
+button.full-menu:hover {
+    background-color: white;
+    color: #F2B410;
+    transition: 0.5s;
+}
+
+/* section-6 */
+
+.section-6 {
+    margin-top: 52px;
+}
+
+.background-brownies {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/a10.jpg');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+
+.heading-Latest-News {
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    color: #F2B410;
+    margin-bottom: 0px;
+}
+
+.Delicious-Recipes {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.over-image {
+    border: 1px solid white;
+    height: 219px;
+
+}
+
+.background-London {
+    background-image: url('file:///C:/Users/user2/Downloads/a9.webp');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+
+}
+
+.background-Cooking {
+    background-image: url('file:///C:/Users/user2/Downloads/a8.webp');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+
+}
+
+.row.text-row {
+    margin-top: 48px;
+}
+
+.heading-brownies {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.heading-London {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.heading6 {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 23px;
+}
+
+.para6 {
+    font-size: 14px;
+    color: grey;
+    margin: 18px 31px 9px 9px;
+    letter-spacing: 0px;
+}
+
+.box-behind6 {
+    margin-top: 46px;
+}
+
+.discover-more {
+    padding: 12px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    background: #F2B410;
+    letter-spacing: 1px;
+    border: 1px solid white;
+}
+
+.box-behind6 {
+    background-color: #F2B410;
+    padding: 7px 7px;
+    width: fit-content;
+    /* margin-left: 112px; */
+}
+
+.btn6 {
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION-7 */
+
+.heading-Chef-Pick {
+
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    color: #F2B410;
+}
+
+.Cooking-Recipes {
+
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.over-bg-color {
+    color: black;
+}
+
+.button-outer-box {
+    position: relative;
+    bottom: 4%;
+}
+
+.fa-solid.fa-list {
+    padding-right: 8px;
+    font-size: 18px;
+}
+
+.view-recipe {
+    padding: 10px 25PX;
+    border: 1px solid #ffffff;
+    font-weight: 500;
+}
+
+/* SECTION - 8 */
+
+
+.sec8-images1 {
+    background-image: url('imagesssss/img1.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec8-images2 {
+    background-image: url('imagesssss/img2.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec8-images3 {
+    background-image: url('imagesssss/img3.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec8-images4 {
+    background-image: url('imagesssss/img4.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec8-images5 {
+    background-image: url('imagesssss/img5.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.sec8-images6 {
+    background-image: url('imagesssss/img6.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.inside-text {
+    padding: 10px 12px;
+    font-size: 17px;
+    height: 120px;
+    background: #0000002b;
+}
+
+/* FOOTER */
+
+footer {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/footer-bg.jpg');
+    width: 100%;
+}
+
+.heading-footer {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.bottom-border {
+    border-bottom: 3px solid #F2B410;
+    margin-top: 23px;
+    width: 15%;
+}
+
+.footer-body {
+    font-size: 14px;
+    color: #d3cccc;
+    font-family: Lora;
+}
+
+.para-box2 {
+    margin: 9px 0px;
+    font-family: Lora;
+
+}
+
+.underline {
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+
+.font-box4 {
+    font-family: Lora;
+
+}
+
+.img-border {
+    border: 4px solid #292929;
+    margin: 2px;
+    height: 70px;
+    width: 80px;
+}
+
+.box-behind-footer {
+    background-color: #F2B410;
+    width: 53%;
+    height: 49px;
+    margin-top: 28px;
+    padding: 5px;
+}
+
+.our-story-footer {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background-color: #F2B410;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 18px;
+}
+
+.bottom-border-of-footer {
+    width: 83%;
+    border-bottom-style: dotted;
+    color: grey;
+    margin-left: 113px;
+    margin-top: 62px;
+}
+
+
+
+i.fa.fa-angle-double-up.normal {
+    padding: 6px;
+    font-size: 19px;
+    border: 1px solid white;
+}
+
+.box-behind-arrow-up-tablet {
+    display: none;
+}
+
+.fa-angle-double-up .responsive {
+    display: none;
+}
+
+.box-behind-arrow-up {
+    background-color: #F2B410;
+    width: 11%;
+    padding: 4px;
+    margin-left: 132px;
+}
+
+.OF-FOOTER {
+    padding-top: 90px;
+}
+
+.fa-twitter {
+    margin: 0px 10px 0px 10px;
+}
+

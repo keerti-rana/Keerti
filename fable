@@ -1,0 +1,1774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fable Restaurant Site
+    </title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="fable-website.css">
+    <link rel="stylesheet" href="fable-responsive.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesom cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.getElementById('Header');
+
+            if (window.scrollY > 50) {
+                header.style.backgroundColor = 'rgba(0, 0, 0, 0.8)'; // or any background
+            } else {
+                header.style.backgroundColor = 'transparent';
+            }
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <header class="HEADER" id="Header">
+
+        <nav class="navbar navbar-expand-lg  navbar-fable">
+            <div class="container of-navbar">
+                <a class="navbar-brand" href="#">
+                    <img src="https://demo.epic-webdesign.com/tf-fable/restaurant/images/logo.png" alt="">
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon bar"><i class="fa-solid fa-bars" style="color: grey"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-items">
+                        <li class="nav-item">
+                            <a class="nav-link  menu-items home" aria-current="page" href="#"
+                                style="color: #f8bf2c; font-weight: 600; font-size: 14px;">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  menu-items about-us" href="#"
+                                style="color: white; font-weight: 600; font-size: 14px;">ABOUT US</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  menu-items" href="#"
+                                style="color: white; font-weight: 600; font-size: 14px;"> MENU </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  menu-items" href="#"
+                                style="color: white; font-weight: 600; font-size: 14px;"> RESERVATIONS </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  menu-items" href="#"
+                                style="color: white; font-weight: 600; font-size: 14px;"> GALLERY </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  menu-items" href="#"
+                                style="color: white; font-weight: 600; font-size: 14px;">CONTACT </a>
+                        </li>
+                        <div class="line"></div>
+                    </ul>
+                    <div class="icons-list">
+                        <li><i class="fa-brands fa-twitter" style="color: #ffffff; font-size: 18px;"></i></li>
+                        <li><i class="fa-brands fa-facebook-f" style="color: #ffffff; font-size:18px;"></i></li>
+                        <li><i class="fa-brands fa-square-instagram" style="color: #ffffff; font-size:18px;"></i></li>
+                    </div>
+                    <button class=" book-a-table" type="submit">BOOK A TABLE</button>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- section-2 -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active img1">
+
+                <div class=" d-md-block outer-box">
+                    <div class="logo2">
+                        <img src="https://demo.epic-webdesign.com/tf-fable/restaurant/images/logo2.png" alt=""
+                            class="logo-menu">
+                    </div>
+                    <h2 class="heading">FRENCH CUISINE</h2>
+                    <P class="paragraph">We're Known for Great French Cooking</P>
+                    <button class="discover-story" style="font-size: 14px;">DISCOVER STORY</button>
+
+                </div>
+            </div>
+            <div class="carousel-item img2">
+                <div class=" d-md-block outer-box">
+                    <div class="logo2">
+                        <img src="https://demo.epic-webdesign.com/tf-fable/restaurant/images/logo2.png" alt=""
+                            class="logo-menu">
+                    </div>
+                    <h2 class="heading">FRENCH CUISINE</h2>
+                    <P class="paragraph">We're Known for Great French Cooking</P>
+                    <button class="discover-story" style="font-size: 14px;">DISCOVER STORY</button>
+
+                </div>
+            </div>
+            <div class="carousel-item img3">
+                <div class=" d-md-block outer-box">
+                    <div class="logo2">
+                        <img src="https://demo.epic-webdesign.com/tf-fable/restaurant/images/logo2.png" alt=""
+                            class="logo-menu">
+                    </div>
+                    <h2 class="heading">FRENCH CUISINE</h2>
+                    <P class="paragraph">We're Known for Great French Cooking</P>
+                    <button class="discover-story" style="font-size: 14px;">DISCOVER STORY</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- box-1 -->
+
+    <div class="container" style="margin-top: 45px;">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 box1 text-center">
+                <h2 class="discover ">Discover</h2>
+                <h3 class="our-story">OUR STORY</h3>
+                <p class="para2">
+                    Curabitur quas nets lacus ets nulat iaculis loremis etis nisle varius vitae seditum fugiatum ligula
+                    aliquam qui sequi. Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleif arcu sit
+                    aspernatur nets fugit, sed quia
+                </p>
+                <div class="box-behind">
+                    <button class="our-recipe">OUR RECIPES</button>
+                </div>
+
+                <!-- box-2 -->
+            </div>
+
+            <div class="col-md-6 col-sm-6 box2 text-center ">
+                <div class="image4-border text-center">
+                    <div class="image4-innerbox"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- section-3 -->
+
+    <div class="container-fluid section3">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+
+                <div class="over-div">
+                    <h2 class="true-passion">True Passion</h2>
+                    <p class="natural-flavours">NATURAL FLAVOURS</p>
+                </div>
+                <div class="background-3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION-4 -->
+
+    <div class="container" style="margin-top: 45px;">
+        <div class="row">
+            <!-- box-2 -->
+
+            <div class="col-md-6 col-sm-6 box2 text-center ">
+                <div class="image5-border text-center">
+                    <div class="image5-innerbox"></div>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-sm-6 box1 text-center">
+                <h2 class="discover ">Discover</h2>
+                <h3 class="our-story">OUR STORY</h3>
+                <p class="para2">
+                    Curabitur quas nets lacus ets nulat iaculis loremis etis nisle varius vitae seditum fugiatum ligula
+                    aliquam qui sequi. Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleif arcu sit
+                    aspernatur nets fugit, sed quia
+                </p>
+                <div class="box-behind">
+                    <button class="our-recipe">OUR RECIPES</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- section-5 -->
+
+    <section class="background-5">
+        <div class="over-bg-5">
+            <div class="container-fluid ">
+                <div class="row ">
+                    <div class="col-md-8 text-center">
+                        <div class="container best-recipe-awarded">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="best-recipe">Best Recipe</h2>
+                                    <p class="AWARDED-CHEFS">AWARDED CHEFS</p>
+                                </div>
+                            </div>
+                            <div class="row A">
+                                <div class="col-md-6 col-sm-6" style="padding: 0;">
+                                    <div class="eng-breakfast colors">
+                                        <h2 class="eng headings"> English Breakfast ...........<span
+                                                style="color: #f8bf2c;"> $12.95</span>
+                                        </h2>
+                                        <p class=" eng para5">Scrambled eggs with crispy bacon, sausage,
+                                            <br>
+                                            black pudding, tomato &
+                                            mushroom.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6" style="padding: 0;">
+                                    <div class="Lasagna-Classic colors">
+                                        <h2 class="Lasagna headings">Lasagna Classic ..............<span
+                                                style="color: #f8bf2c;"> $19.55</span></h2>
+                                        <p class="Lasagna para5">Broccoli rabe, ittalian sausage, peperoncino,
+                                            tomates, flour and
+                                            roasted garlic..
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- row-2 -->
+
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6" style="padding: 0;">
+                                    <div class="Vegetables-Soup colors">
+                                        <h2 class="Vegetables headings"> Vegetables Soup .......<span
+                                                style="color: #f8bf2c;"> $9.95</span></h2>
+                                        <p class=" Vegetables para6">Papaya salsa, sliced red radishes, avocado,,
+                                            corn tortilla, spicy tomato ketchup.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6" style="padding: 0;">
+                                    <div class="Toffee-Pudding colors">
+                                        <h2 class="Toffee headings">Toffee Pudding ........<span
+                                                style="color: #f8bf2c;"> $19.55</span></h2>
+                                        <p class="Toffee  para6">Baked caramel colored sponge cake with
+                                            raisins, ladled with warm toffee sauce.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-6  text-center ">
+                        <button class="full-menu full-menu-space"><i class="fa-regular fa-note-sticky"></i>FULL
+                            MENU</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section-6 -->
+
+    <div class="container section-6">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="heading-Latest-News">Latest News</h2>
+                <p class="Delicious-Recipes">DELICIOUS RECIPES</p>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4 col-sm-4">
+
+                <div class="over-brownies">
+                    <div class="background-brownies mt-4">
+                        <div class="over-image"></div>
+                    </div>
+                </div>
+
+                <h3 class="heading6 text-center ">Brownies and Coffee</h3>
+                <p class=" para6 brownies text-center">Quis autem velis et reprehender etims quiste voluptate velit esse
+                    quam nihil etsa
+                    illum sedit consequatur quias voluptas sit netsum.</p>
+                <div class="btn6">
+                    <div class="box-behind6 ">
+                        <button class="discover-more text-center">DISCOVER MORE</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-4 text-center">
+                <div class="London-Pub">
+                    <div class="background-London mt-4">
+                        <div class="over-image"></div>
+                    </div>
+                </div>
+                <h3 class="heading6  text-center">Oldest London Pub</h3>
+                <p class="para6 London text-center">Quis autem velis et reprehender etims quiste voluptate velit esse
+                    quam nihil etsa
+                    illum sedit consequatur quias voluptas sit netsum.</p>
+                <div class="btn6">
+                    <div class="box-behind6 ">
+                        <button class="discover-more text-center">DISCOVER MORE</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class=" Cooking-Recipes">
+                    <div class="background-Cooking mt-4">
+                        <div class="over-image"></div>
+
+                    </div>
+                </div>
+                <h3 class="heading6 text-center ">New Cooking Recipes</h3>
+                <p class="para6 Cooking text-center">Quis autem velis et reprehender etims quiste voluptate velit esse
+                    quam nihil etsa
+                    illum sedit consequatur quias voluptas sit netsum.</p>
+                <div class="btn6">
+                    <div class="box-behind6  ">
+                        <button class="discover-more text-center">DISCOVER MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  SECTION -7 -->
+
+    <div class="container section-7">
+        <div class="row">
+            <div class="col-md-12 text-center mt-5 ">
+                <h2 class="heading-Chef-Pick">Chef's Pick</h2>
+                <p class="Cooking-Recipes">COOKING RECIPES</p>
+            </div>
+        </div>
+        <div class="row sec7 mt-5">
+            <div class="col-md-3 mt-5">
+                <img src="https://assets.telegraphindia.com/telegraph/2024/Jan/1704464682_lead-59.jpg" alt=""
+                    width="100%" height="210px" class="sec7-img1">
+                <div class="over-bg-color"></div>
+            </div>
+
+            <div class="col-md-6 mt-5">
+                <img src="https://img.freepik.com/premium-photo/coffee-accessories-with-roasted-beans_23-2148336766.jpg?w=996"
+                    width="100%" alt="" class="sec7-img2">
+                <div class="button-outer-box text-center">
+                    <button class="view-recipe"><i class="fa-solid fa-list"></i>VIEW RECIPE</button>
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-5">
+                <img src="https://pipingpotcurry.com/wp-content/uploads/2024/04/Chicken-Biryani-Piping-Pot-Curry.jpg"
+                    width="100%" alt="" height="210px" class="sec7-img3">
+                <div class="over-bg-color"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECTION - 8 -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 mt-3">
+                <div class="sec8-images1">
+                    <div class="inside-text">
+                        <p style="color: white;"> Chilly Soup</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 mt-3">
+                <div class="sec8-images2">
+                    <div class="inside-text">
+                        <p style="color: white;"> Classic Bolognese </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 mt-3">
+                <div class="sec8-images3">
+                    <div class="inside-text">
+                        <p style="color: white;"> Cottage Chesse and Chives </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 mt-3">
+                <div class="sec8-images4">
+                    <div class="inside-text">
+                        <p style="color: white;"> Colorful Salad</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 mt-3">
+                <div class="sec8-images5">
+                    <div class="inside-text">
+                        <p style="color: white;"> It's Just Cornflakes</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 mt-3">
+                <div class="sec8-images6">
+                    <div class="inside-text">
+                        <p style="color: white;"> Tasty Mucsli</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  FOOTER -->
+
+    <footer style="color: white;">
+        <div class="container mt-4">
+            <div class="row OF-FOOTER">
+                <div class="col-md-3 col-sm-3 ">
+                    <h2 class="heading-footer">ABOUT US</h2>
+                    <div class="bottom-border"></div>
+                    <p class="footer-body mt-4">Curabitur quas nets lacus ets nulat iaculis loremis etis nisle varius
+                        vitae seditum fugiatum
+                        ligula
+                        aliquam qui.</p>
+                    <div class="box-behind-footer">
+                        <button class="our-story-footer ">OUR STORY</button>
+                    </div>
+                </div>
+                <div class="com-md-3 col-sm-3 ">
+
+                    <h2 class="heading-footer">LATEST RECIPES</h2>
+                    <div class="bottom-border"></div>
+                    <div class="footer-body mt-4">
+                        <P class="para-box2">Cheddar Chesse Cauliflower Tots</P>
+                        <div class="underline"></div>
+                        <P class="para-box2">Garlic Chicken & White Wine Sauce</P>
+                        <div class="underline"></div>
+                        <P class="para-box2">Soinach Mozzarellera Grilled Cheese</P>
+                        <div class="underline"></div>
+                        <P class="para-box2">Mini Chicken Roasted Cups</P>
+                        <div class="underline"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 ">
+                    <h2 class="heading-footer">FEATURED PLATES</h2>
+                    <div class="bottom-border"></div>
+                    <div class="footer-body mt-4">
+                        <!-- <line-1> -->
+                        <div class="row">
+                            <div class="col-md-4 col-4  images-area  "><img
+                                    src="https://demo.epic-webdesign.com/tf-fable/restaurant/images/instagram5.jpg"
+                                    alt="" class="img-border">
+                            </div>
+                            <div class="col-md-4 col-4  "><img
+                                    src="https://demo.epic-webdesign.com/tf-fable/restaurant/images/instagram3.jpg"
+                                    alt="" class="img-border">
+                            </div>
+                            <div class="col-md-4 col-4  "><img src="imagesssss/img5.jpg" alt="" class="img-border">
+                            </div>
+                            <!-- </line-1>
+                <line-2> -->
+                            <div class="col-md-4 col-4  "><img
+                                    src="https://demo.epic-webdesign.com/tf-fable/restaurant/images/instagram1.jpg"
+                                    alt="" class="img-border">
+                            </div>
+                            <div class="col-md-4 col-4 "><img src="imagesssss/img6.jpg" alt="" class="img-border">
+                            </div>
+                            <div class="col-md-4 col-4  "><img
+                                    src="https://demo.epic-webdesign.com/tf-fable/restaurant/images/instagram1.jpg"
+                                    alt="" class="img-border">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </line-2> -->
+                </div>
+                <div class="col-md-3 col-sm-3  ">
+                    <h2 class="heading-footer">CONTACT DETAILS</h2>
+                    <div class="bottom-border"></div>
+                    <div class="footer-body mt-4">
+                        <p class="contact-details font-box4">Curabitur quas nets lacus ets nulat iaculis loremis etis
+                            vitae</p>
+                        <p class="location font-box4"><i class="fa-solid fa-location-dot me-2"></i>Oxford Street, London
+                            , UK, N1</p>
+                        <p class="call-number font-box4"><i class="fa-solid fa-phone me-2"></i>+44 54863216 /+44
+                            546846541</p>
+                        <p class="mail font-box4"><i class="fa-solid fa-square-envelope me-2"></i>contact@restaurant.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-border-of-footer"></div>
+        <div class="sub-footer">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-md-4 col-sm-4">
+                        <p style="font-family: Lora; color: #8f8b8b;; font-size: 14px;">©2024-2025 Fable . Designed by
+                            Epic Agency</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="box-behind-arrow-up">
+                            <a href="#">
+                                <i class="fa fa-angle-double-up normal" style="color: white;"></i>
+                            </a>
+                        </div>
+                        <div class="box-behind-arrow-up-tablet">
+                            <a href="#">
+                                <i class="fa fa-angle-double-up normal" style="color: white;"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 col-sm-4 ICONS">
+                        <div class="icon-list d-flex" style="font-family: Lora;">
+                            <p style="font-family: Lora; color: #8f8b8b; font-size: 14px;">Follow Us.</p>
+                            <div class="twitter"><i class="fa-brands fa-twitter" style="color: #8f8b8b;"></i>
+                            </div>
+                            <div class="twitter"><i class="fa-brands fa-pinterest me-3" style="color: #8f8b8b;"></i>
+                            </div>
+                            <div class="twitter"><i class="fa-brands fa-facebook-f me-3" style="color: #8f8b8b;"></i>
+                            </div>
+                            <div class="twitter"><i class="fa-brands fa-instagram me-3" style="color: #8f8b8b;"></i>
+                            </div>
+                            <div class="twitter"><i class="fa-brands fa-youtube" style="color: #8f8b8b;"></i></div>
+                        </div>
+                    </div>
+                    <i class="fa fa-angle-double-up responsive" style="color: white;" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
+
+//css//
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@1,400..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap');
+
+
+
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+scroll-behavior: smooth;
+}
+
+#Header{
+    padding-top: 0;
+    top: 0px;
+}
+
+.line-bottom {
+    width: 100%;
+}
+
+.bar {
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.bar:hover {
+    background-color: #ddd;
+}
+
+i.fa-solid.fa-bars {
+    font-size: x-large;
+    padding: 6px;
+}
+
+.toggler-icon {
+    display: inline-block;
+    width: 2.5em;
+    height: 2em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navbar-fable {
+    background-color: black;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 71px;
+    background: transparent;
+    padding: 0px;
+    position: fixed;
+
+}
+.container.of-navbar {
+    display: none;
+}
+
+.img1 {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/rs2.jpg');
+    height: 600PX;
+    background-size: cover;
+    background-position: top;
+
+}
+
+.img2 {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/rs1.jpg');
+    height: 600PX;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img3 {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/rs3.jpg');
+    height: 600PX;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+
+.text-color {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.line {
+    height: 38px;
+    border: 1px solid white;
+    margin-left: 12px;
+}
+
+.book-a-table {
+    background: #f8bf2c;
+    font-size: 14px;
+    padding: 8px 20px;
+    border: 1px solid #f8bf2c;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.book-a-table:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+.menu {
+    position: absolute;
+    top: 12px;
+
+}
+
+header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 20px;
+}
+
+.a.nav-link.menu-items {
+    color: white;
+    font-weight: 600;
+}
+
+.menu-items {
+    margin-left: auto;
+    gap: 14px;
+}
+
+.nav-item:hover {
+    color: #f8bf2c;
+}
+
+.me-auto {
+    margin-right: 41px !important;
+}
+
+.icons-list {
+    display: flex;
+    gap: 15px;
+    margin-right: 31px;
+}
+
+/* logo-2 */
+
+.outer-box {
+    bottom: 60px;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+.logo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.heading {
+    font-size: 2.75rem;
+    font-weight: 750;
+    letter-spacing: 5px;
+    line-height: 100px;
+    margin-bottom: 0;
+}
+
+.paragraph {
+    font-family: Lora;
+    color: #dad4ce;
+    FONT-SIZE: 1.25rem;
+    font-weight: 600;
+}
+
+.discover-story {
+    padding: 12px;
+    background: transparent;
+    color: white;
+    border: 1px solid;
+    letter-spacing: 2px;
+}
+
+/* BOX */
+
+.row {
+    padding: 0;
+}
+
+
+.discover {
+    font-family: 'Tangerine', cursive;
+    color: #F2B410;
+    font-weight: 500;
+    font-size: 79px;
+    margin-bottom: 0;
+}
+
+.our-story {
+    font-size: 2.65rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.para2 {
+    font-family: lora, sans-serif;
+    color: #777;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 15px;
+}
+
+.box-behind {
+    background-color: #F2B410;
+    width: 35%;
+    height: 63px;
+    margin-left: 162px;
+    margin-top: 28px;
+}
+
+.our-recipe {
+    background: #F2B410;
+    border: 2px solid white;
+    COLOR: WHITE;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 11px 20px;
+    margin-top: 9px;
+}
+
+/* BOX-2 */
+
+
+.image4-border {
+    width: 100%;
+    background-image: url('file:///C:/Users/user2/Downloads/img4.webp');
+    background-size: cover;
+    height: 362px;
+    padding: 12px;
+
+}
+
+.image4-innerbox {
+    border: 1px solid white;
+    height: 335px;
+
+}
+
+/* SECTION-3 */
+
+.section3 {
+    margin-top: 135px;
+    padding: 0;
+}
+
+.background-3 {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/bg4.jpg');
+    width: auto;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.8);
+}
+
+.over-div {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    left: 32%;
+}
+
+.true-passion {
+    color: #F2B410;
+    font-size: 5.5rem;
+    padding-top: 260px;
+    margin-bottom: 0;
+    font-family: 'Tangerine', cursive;
+
+}
+
+.natural-flavours {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+}
+
+/* SECTION-4 */
+
+.image5-border {
+    width: 100%;
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/food4.jpg');
+    background-size: cover;
+    height: 362px;
+    padding: 12px;
+
+}
+
+.image5-innerbox {
+    border: 1px solid white;
+    height: 335px;
+
+}
+
+/* SECTION-5 */
+
+.section5 {
+    margin-top: 135px;
+    padding: 0;
+}
+
+.background-5 {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/bg8.jpg');
+    width: auto;
+    height: 700px;
+    background-position: top;
+    background-size: cover;
+    /* filter: brightness(0.8); */
+    margin-top: 102px;
+}
+
+.over-bg-5 {
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+.best-recipe-awarded {
+    padding-top: 52px;
+}
+
+/* row-1 */
+
+
+
+.row-1 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.headings {
+    font-size: 17px;
+    font-family: Lora;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+
+
+.colors {
+    color: white;
+    font-size: 25px;
+}
+
+.para5 {
+    font-size: 13px;
+    font-family: Lora;
+    text-align: left;
+    line-height: 24px;
+    LETTER-SPACING: 1px;
+}
+
+.best-recipe {
+    color: #F2B410;
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    margin-bottom: 0;
+
+}
+
+.row.A {
+    margin-top: 25px;
+}
+
+.AWARDED-CHEFS {
+    color: white;
+    font-size: 39px;
+    font-weight: 700;
+}
+
+/* ROW-2 */
+
+.row-2 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.para6 {
+    font-size: 13px;
+    font-family: Lora;
+    text-align: left;
+    line-height: 24px;
+    LETTER-SPACING: 1px;
+}
+
+
+.Vegetables-Soup.colors {
+    margin-right: 50px;
+}
+
+i.fa-regular.fa-note-sticky {
+    padding: 15px;
+    color: #F2B410;
+    font-size: 18px;
+}
+
+button.full-menu {
+    padding: 4px 37px 4px 28px;
+    background: transparent;
+    color: white;
+    border: 1px solid;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 60px;
+
+}
+
+button.full-menu:hover {
+    background-color: white;
+    color: #F2B410;
+    transition: 0.5s;
+}
+
+/* section-6 */
+
+.section-6 {
+    margin-top: 52px;
+}
+
+.background-brownies {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/a10.jpg');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+
+.heading-Latest-News {
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    color: #F2B410;
+    margin-bottom: 0px;
+}
+
+.Delicious-Recipes {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.over-image {
+    border: 1px solid white;
+    height: 219px;
+
+}
+
+.background-London {
+    background-image: url('file:///C:/Users/user2/Downloads/a9.webp');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+
+}
+
+.background-Cooking {
+    background-image: url('file:///C:/Users/user2/Downloads/a8.webp');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    padding: 15px;
+
+}
+
+.row.text-row {
+    margin-top: 48px;
+}
+
+.heading-brownies {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.heading-London {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.heading6 {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 23px;
+}
+
+.para6 {
+    font-size: 14px;
+    color: grey;
+    margin: 18px 31px 9px 9px;
+    letter-spacing: 0px;
+}
+
+.box-behind6 {
+    margin-top: 46px;
+}
+
+.discover-more {
+    padding: 12px;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    background: #F2B410;
+    letter-spacing: 1px;
+    border: 1px solid white;
+}
+
+.box-behind6 {
+    background-color: #F2B410;
+    padding: 7px 7px;
+    width: fit-content;
+    /* margin-left: 112px; */
+}
+
+.btn6 {
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION-7 */
+
+.heading-Chef-Pick {
+
+    font-family: 'Tangerine', cursive;
+    font-size: 80px;
+    color: #F2B410;
+}
+
+.Cooking-Recipes {
+
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.over-bg-color {
+    color: black;
+}
+
+.button-outer-box {
+    position: relative;
+    bottom: 4%;
+}
+
+.fa-solid.fa-list {
+    padding-right: 8px;
+    font-size: 18px;
+}
+
+.view-recipe {
+    padding: 10px 25PX;
+    border: 1px solid #ffffff;
+    font-weight: 500;
+}
+
+/* SECTION - 8 */
+
+
+.sec8-images1 {
+    background-image: url('imagesssss/img1.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec8-images2 {
+    background-image: url('imagesssss/img2.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec8-images3 {
+    background-image: url('imagesssss/img3.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec8-images4 {
+    background-image: url('imagesssss/img4.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sec8-images5 {
+    background-image: url('imagesssss/img5.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.sec8-images6 {
+    background-image: url('imagesssss/img6.jpg');
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.inside-text {
+    padding: 10px 12px;
+    font-size: 17px;
+    height: 120px;
+    background: #0000002b;
+}
+
+/* FOOTER */
+
+footer {
+    background-image: url('https://demo.epic-webdesign.com/tf-fable/restaurant/images/footer-bg.jpg');
+    width: 100%;
+}
+
+.heading-footer {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.bottom-border {
+    border-bottom: 3px solid #F2B410;
+    margin-top: 23px;
+    width: 15%;
+}
+
+.footer-body {
+    font-size: 14px;
+    color: #d3cccc;
+    font-family: Lora;
+}
+
+.para-box2 {
+    margin: 9px 0px;
+    font-family: Lora;
+
+}
+
+.underline {
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+
+.font-box4 {
+    font-family: Lora;
+
+}
+
+.img-border {
+    border: 4px solid #292929;
+    margin: 2px;
+    height: 70px;
+    width: 80px;
+}
+
+.box-behind-footer {
+    background-color: #F2B410;
+    width: 53%;
+    height: 49px;
+    margin-top: 28px;
+    padding: 5px;
+}
+
+.our-story-footer {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background-color: #F2B410;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 18px;
+}
+
+.bottom-border-of-footer {
+    width: 83%;
+    border-bottom-style: dotted;
+    color: grey;
+    margin-left: 113px;
+    margin-top: 62px;
+}
+
+
+
+i.fa.fa-angle-double-up.normal {
+    padding: 6px;
+    font-size: 19px;
+    border: 1px solid white;
+}
+
+.box-behind-arrow-up-tablet {
+    display: none;
+}
+
+.fa-angle-double-up .responsive {
+    display: none;
+}
+
+.box-behind-arrow-up {
+    background-color: #F2B410;
+    width: 11%;
+    padding: 4px;
+    margin-left: 132px;
+}
+
+.OF-FOOTER {
+    padding-top: 90px;
+}
+
+.fa-twitter {
+    margin: 0px 10px 0px 10px;
+}
+// RESPOMSIVE//
+
+@media only screen and (max-width:767px) {
+
+    header.HEADER {
+        top: 0px;
+        background-color: black;
+    }
+
+    .container.of-navbar {
+        background-color: black;
+        margin: 0PX;
+        max-width: 100%;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .icons-list {
+        margin-bottom: 31px;
+        display: flex;
+    }
+
+    button.book-a-table {
+        display: none;
+    }
+
+    .cont-navbar {
+
+        background-color: #000000e3;
+        margin: 0PX;
+
+    }
+
+    .logo2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 26px;
+    }
+
+    img.logo-menu {
+        height: 128px;
+    }
+
+    .menu-items.home {
+        display: none;
+
+    }
+
+    .menu-items.about-us {
+        display: none;
+    }
+
+
+    .navbar-fable {
+        background-color: black;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        height: 64px;
+        background: transparent;
+        padding-top: 0px;
+        position: fixed;
+        border-bottom: 1px solid white;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .heading {
+        font-size: 2.15rem;
+        font-weight: 750;
+        letter-spacing: 3px;
+        line-height: 40px;
+        margin-bottom: 0;
+    }
+
+    .paragraph {
+        FONT-SIZE: 0.9rem;
+    }
+
+    .outer-box {
+        bottom: 136px;
+        right: 14%;
+        left: 14%;
+    }
+
+    .box-behind {
+        background-color: #F2B410;
+        width: 57%;
+        margin: 28px 84px 48px 73px;
+    }
+
+
+    .our-recipe {
+        letter-spacing: 2px;
+        font-size: 13px;
+        line-height: 22px;
+        padding: 12px 32px;
+        margin-top: 7px;
+    }
+
+    .image4-border {
+        width: -webkit-fill-available;
+        background-size: cover;
+        height: 235px;
+        padding: 12px;
+    }
+
+    .image4-innerbox {
+        border: 1px solid white;
+        height: 209px;
+    }
+
+    .background {
+        background-image: url('images/bg4.jpg');
+        width: auto;
+        height: 442px;
+        background-position: bottom;
+        background-size: cover;
+        filter: brightness(0.8);
+    }
+
+    .true-passion {
+
+        padding-top: 136px;
+
+    }
+
+    .over-div {
+
+        left: unset;
+
+    }
+
+    .section3 {
+        margin-top: 91px;
+    }
+
+    .section3-row {
+        margin: 0;
+    }
+
+    .box1 {
+        margin-top: 45px;
+    }
+
+    .box2 {
+        margin-top: 36px;
+    }
+
+    .text-center {
+        margin-top: 64px;
+    }
+
+    .para2 {
+        margin: 15px;
+    }
+
+    .box-behind {
+
+        margin: auto;
+    }
+
+    .best-recipe-awarded {
+        padding: 52px 12px 0px 12px;
+    }
+
+    .background-5 {
+        height: 1100px;
+    }
+
+    .over-bg-5 {
+        height: 1100px;
+
+    }
+
+    .headings {
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+
+    .para5 {
+        margin-top: 26px;
+        margin: 17px 0px 56px 0px;
+    }
+
+    .para6 {
+        margin-top: 26px;
+        margin: 17px 0px 56px 0px;
+    }
+
+    button.full-menu {
+
+        margin-top: 0px;
+    }
+
+    /* SECTION-6 */
+
+
+    .section-6 {
+        margin-top: 90px;
+    }
+
+    .Delicious-Recipes {
+
+        line-height: normal;
+    }
+
+    h3.heading6.text-center {
+        margin-top: 18px;
+    }
+
+    .para6 {
+        margin-top: 26px;
+        margin: 11px 0px 0px 0px;
+    }
+
+    /* .box-behind6 {
+        background-color: #F2B410;
+        padding: 7px 7px;
+        margin-left: 97px;
+    } */
+
+    .text-center {
+        margin-top: 0px;
+    }
+
+    .sec7-img1 {
+        display: none;
+    }
+
+    .sec7-img3 {
+        display: none;
+    }
+
+    .bottom-border-of-footer {
+        margin-left: 0px;
+    }
+
+    .image4-border.text-center {
+        margin-top: 20px;
+    }
+
+    button.full-menu.full-menu-space {
+        margin-top: 20px;
+    }
+
+    .background-5 {
+        height: 990px;
+    }
+
+    .over-bg-5 {
+        height: 990px;
+    }
+
+    /* .true-passion {
+        margin-left: 150px;
+    }
+
+    p.natural-flavours {
+        margin-left: 175px;
+    } */
+
+    /* FOOTER */
+
+    .heading-footer {
+        margin-top: 10px;
+    }
+
+    .bottom-border-of-footer {
+        margin-left: 12px;
+        width: 92%;
+        margin-top: 12px;
+    }
+
+    .our-story-footer {
+        padding: 0px 12px;
+    }
+
+    .box-behind-footer {
+        background-color: #F2B410;
+        height: 52px;
+        padding: 5px;
+        width: 31%;
+        margin: 28px 0px 9px 0px;
+    }
+
+    .box-behind-arrow-up {
+        display: none;
+    }
+
+    .fa-angle-double-up.responsive {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-behind-arrow-up-tablet {
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Styles for tablets in portrait */
+
+    .container.of-navbar {
+        background-color: black;
+        margin: 0PX;
+        max-width: 100%;
+    }
+
+    .icons-list {
+        margin-bottom: 31px;
+        display: flex;
+    }
+
+    button.book-a-table {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    header.HEADER {
+        top: 0px;
+        background-color: black;
+    }
+
+    .image4-border.text-center {
+        background-position: center;
+    }
+
+    .box-behind {
+        width: 56%;
+        margin-left: 75px;
+    }
+
+    .over-div {
+        left: 22%;
+    }
+
+    button.full-menu {
+
+        margin-top: 9px;
+    }
+
+    /* FOOTER */
+
+    .box-behind-footer {
+
+        width: 88%;
+
+    }
+
+    .img-border {
+        margin: 0px;
+        height: 55px;
+        width: 50px;
+    }
+
+    .bottom-border-of-footer {
+        width: 91%;
+        margin-left: 23px;
+        margin-top: 21px;
+    }
+
+    i.fa.fa-angle-double-up.responsive {
+        DISPLAY: NONE;
+    }
+
+    .box-behind-arrow-up-tablet {
+        padding: 6px;
+        font-size: 19px;
+        border: 1px solid white;
+    }
+
+    .box-behind-arrow-up {
+
+        width: 19%;
+        margin-left: 105px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    /* Styles for tablets in portrait */
+
+    .icons-list {
+        margin-bottom: 31px;
+        display: flex;
+    }
+
+    .container.of-navbar {
+        background-color: black;
+        margin: 0PX;
+        max-width: 100%;
+
+    }
+
+
+    button.book-a-table {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    header.HEADER {
+        top: 0px;
+        background-color: black;
+    }
+
+    .image4-border.text-center {
+        background-position: center;
+    }
+
+    .box-behind {
+        width: 42%;
+        margin-left: 145px;
+        margin-top: 44px;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .container.of-navbar {
+        background: black;
+        margin: 0px;
+        padding-left: 35px;
+    }
+}

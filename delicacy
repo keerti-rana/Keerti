@@ -855,4 +855,18 @@ i.fa.fa-angle-double-up.normal {
 .fa-twitter {
     margin: 0px 10px 0px 10px;
 }
+// js
+
+
+document.addEventListener('DOMContentLoaded', function () { // wait until html is fully loaded then run the code inside this function //
+    
+    var swiper = new Swiper('.home.swiper', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+});
 
